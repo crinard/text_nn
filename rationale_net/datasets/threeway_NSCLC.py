@@ -20,14 +20,18 @@ for indx in range(2,2252):
 	b=train.cell(row = indx, column=3).value
 	if (b ==  "POD"):
 		label1 = 0
-		label_name1 = ('POD')
+		label_name1 = ('POD','POD/Brain')
+		fuku.append((a,label1,label_name1))
 	elif(b == 'SD') :
 		label1 = 1
 		label_name1 = ('SD')
-	else:
+		fuku.append((a,label1,label_name1))
+	elif(b in ('PR','CR')):
 		label1 = 2
 		label_name1 = ('PR or CR')
-	fuku.append((a,label1,label_name1))
+		fuku.append((a,label1,label_name1))
+	else:
+		print(("loading error",b))
 random.shuffle(fuku)
 num_train = int(len(fuku)*.8)
 num_dev = int(len(fuku)*.9)
