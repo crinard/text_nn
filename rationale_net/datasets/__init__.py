@@ -1,2 +1,10 @@
 import rationale_net.datasets.full_beer_dataset
 import rationale_net.datasets.news_group_dataset
+import rationale_net.datasets.fourway_NSCLC
+import rationale_net.datasets.firstexamples_fourway
+import rationale_net.datasets.twoexamples_fourway
+import rationale_net.datasets.threeexamples_fourway
+import rationale_net.datasets.fourexamples_fourway
+import rationale_net.datasets.fiveexamples_fourway
+import rationale_net.datasets.sixexamples_fourway
+import rationale_net.datasets.NSCLC_dataset
