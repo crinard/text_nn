@@ -7,4 +7,5 @@ import rationale_net.datasets.threeexamples_fourway
 import rationale_net.datasets.fourexamples_fourway
 import rationale_net.datasets.fiveexamples_fourway
 import rationale_net.datasets.sixexamples_fourway
+import rationale_net.datasets.threeway_NSCLC
 import rationale_net.datasets.NSCLC_dataset
